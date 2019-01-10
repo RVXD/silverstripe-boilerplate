@@ -1,10 +1,10 @@
 <!doctype html>
 <!--[if lt IE 9]>
-<html class="no-js lt-ie9" lang="$ContentLocale" $OGNS> <![endif]-->
+<html class="no-js lt-ie9" lang="$ContentLocale" $OGNS.RAW> <![endif]-->
 <!--[if gt IE 8]>
-<html class="no-js ie9" lang="$ContentLocale" $OGNS> <![endif]-->
+<html class="no-js ie9" lang="$ContentLocale" $OGNS.RAW> <![endif]-->
 <!--[if !IE]><!-->
-<html class="no-js no-ie" lang="$ContentLocale" $OGNS> <!--<![endif]-->
+<html class="no-js no-ie" lang="$ContentLocale" $OGNS.RAW> <!--<![endif]-->
 <head>
     <% if $IsDev %><meta name="robots" content="noindex, nofollow"><% end_if %>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
