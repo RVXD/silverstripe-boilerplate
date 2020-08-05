@@ -37,7 +37,7 @@
         "php-http/message": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
+        "phpunit/phpunit": "^5.7",
         "lekoala/silverstripe-debugbar": "*"
     },
     "autoload": {
