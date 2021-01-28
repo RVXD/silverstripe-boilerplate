@@ -10,6 +10,7 @@ use SilverStripe\Forms\FormField;
 use SilverStripe\Forms\RequiredFields;
 use SilverStripe\Forms\TextareaField;
 use SilverStripe\Forms\TextField;
+use SilverStripe\Forms\Validator;
 use SilverStripe\ORM\ArrayList;
 
 /**
@@ -49,7 +50,7 @@ class BaseForm extends Form
      */
     protected function processFields(
         ArrayList $fields,
-        RequiredFields $r = null,
+        Validator $r = null,
         $setPlaceholder = true,
         $setRequiredPlaceholder = true
     ) {
